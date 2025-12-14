@@ -93,6 +93,21 @@ Once Vanity Vault is live on the App Store, visit the product page for official 
 
 Send ideas to Pdave7848@gmail.com or review on the App Store.
 
+## Help & Tutorials 📚
+
+For step-by-step tutorials on scanning receipts, managing inventory, and using reorder intelligence, check the in-app Help Center. For additional details, visit our [GitHub Support Page](https://github.com/ParthD25/Vanity-Vault/tree/support).
+
+## Privacy Policy 🔒
+
+Vanity Vault is committed to protecting your privacy. Here's how we handle your data:
+
+- **Data Storage**: All data is stored locally on your device using SwiftData. No data is sent to third-party servers.
+- **Encryption**: Data is encrypted using iOS-level security features.
+- **Backup**: Optional iCloud backup is available, controlled by you. We do not access or store your iCloud data.
+- **No Tracking**: We do not use analytics, tracking, or ad SDKs.
+- **Data Export and Deletion**: You can export all data as CSV and delete it from the app at any time.
+- **Compliance**: We comply with CCPA and GDPR principles, as well as Apple App Store guidelines.
+
 <small>**Terms of Service** | **Privacy Policy**</small>
 
 Thank you for using Vanity Vault!
