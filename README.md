@@ -66,22 +66,10 @@ Vanity Vault is a professional-grade inventory and expense platform built for sa
 - Minimum ~150 MB free space.
 - Build with Xcode 15+; run `xcodebuild -project VanityVault.xcodeproj -scheme VanityVault -destination 'platform=iOS Simulator,name=iPhone 17' build`.
 
-## Usage Workflow
-1. **Morning review** – check dashboard alerts and reorder list.
-2. **Receiving** – scan receipts or use manual entry as shipments arrive.
-3. **Daily operations** – log usage per service/location to keep stock accurate.
-4. **Weekly** – review analytics, export summaries, plan orders, and reconcile inventory.
-
 ## Support & Policies
 - In-app Help Center with tutorials, Privacy Policy, and Terms of Service.
-- Contact: `support@vanityvault.app` (placeholder) or business phone M–F, 9a–5p PST.
+- Contact: `support@vanityvault.app` (placeholder) 
 - Complies with CCPA/GDPR principles and Apple App Store guidelines.
-
-## Roadmap
-1. **v1.1** – Barcode scanning + advanced reporting widgets.
-2. **v1.2** – Team access with roles and audit trails.
-3. **v1.3** – Supplier integrations and third-party API hooks.
-4. **v2.0** – Predictive analytics and AI-powered forecasting.
 
 ## Licensing
 Vanity Vault is commercial software. A single license covers all salon locations you operate; resale is prohibited. All business data remains yours, and exports are unlimited.
