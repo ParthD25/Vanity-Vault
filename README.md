@@ -1,78 +1,77 @@
 # Vanity Vault Support Center 🛡️
 
-Welcome to the official support page for **Vanity Vault**! Your go-to app for secure, stylish storage and management of your digital valuables. Whether you're storing passwords, notes, or personal data, we're here to help you make the most of it. Below, you'll find everything you need to troubleshoot issues, explore features, and get in touch.
+Welcome to the official support page for **Vanity Vault**! A professional-grade inventory and expense platform for salons. Scan receipts, reconcile stock, and get reorder recommendations all from your iOS device. Below, you'll find troubleshooting tips, FAQs, and how to get help.
 
 ## About Vanity Vault 📱
 
-Vanity Vault is a sleek, user-friendly app designed to keep your sensitive information safe and organized. With advanced encryption, intuitive interfaces, and cross-device syncing, it ensures your data is protected while being easy to access. Available soon on the App Store!
+Vanity Vault helps salon owners manage inventory and expenses efficiently. Using SwiftUI and VisionKit, it automates receipt scanning with OCR, tracks stock across multiple locations, and provides reorder intelligence based on usage rates. All data is stored locally on your device for privacy.
 
 ### Key Features ✨
-- **Secure Encryption**: Military-grade protection for all your entries.
-- **Cloud Sync**: Access your vault from anywhere, anytime.
-- **Biometric Unlock**: Quick access with Face ID or Touch ID.
-- **Custom Categories**: Organize your data with personalized folders.
-- **Backup & Restore**: Never lose your data with automatic backups.
-- **Dark Mode**: Easy on the eyes for late-night use.
+- **Live Dashboard**: Real-time KPIs, low stock alerts, spending pace, and activity timeline.
+- **Inventory Management**: Smart search, stock editing, category filters, and multi-sort views.
+- **Reorder Intelligence**: Usage-based urgency scoring, automated quantity suggestions, and supplier comparisons.
+- **Receipt Automation**: OCR-powered scanning, item matching, and expense logging.
+- **Multi-Location Support**: Manage stock per salon with combined analytics.
+- **Settings & Export**: Business profile, notifications, CSV export, and privacy controls.
 
 ## Getting Started 🚀
 
 New to Vanity Vault? Here's how to get up and running:
-1. Download the app from the App Store.
-2. Create your account and set up a master password.
-3. Enable biometric authentication for convenience.
-4. Start adding your first entries!
-
-For a full tutorial, check out our [Getting Started Guide](https://yourapp.com/getting-started) (link coming soon).
+1. Download Vanity Vault from the App Store (iOS 17.0+ required).
+2. Set up your business profile and add initial inventory.
+3. Scan your first receipt or manually enter products.
+4. Review the dashboard for alerts and reorder suggestions.
 
 ## Troubleshooting 🔧
 
-Encountering an issue? Try these quick fixes before contacting support:
+Try these simple steps first:
 
-- **App Won't Open**: Restart your device and try again. Ensure you have the latest iOS version.
-- **Sync Issues**: Check your internet connection and verify your account settings.
-- **Forgot Password**: Use the recovery option or contact us for help resetting.
-- **Biometric Not Working**: Go to Settings > Face ID/Touch ID and ensure Vanity Vault is enabled.
-- **Data Not Saving**: Free up storage space on your device and try again.
+- **App Won't Open**: Restart your iPhone/iPad and ensure iOS is updated to 17.0+.
+- **Receipt Scanning Issues**: Check camera permissions in Settings > Privacy > Camera. Ensure good lighting and steady hold.
+- **Sync Problems**: Vanity Vault is local-first; data syncs via optional iCloud. Check iCloud settings if enabled.
+- **Stock Not Updating**: Manually edit stock in the inventory section or re-scan receipts.
+- **App Crashes**: Free up device storage (need ~150 MB free) and restart the app.
+- **Data Not Saving**: Ensure SwiftData has space; export data as CSV for backup.
 
-If these don't help, see the FAQs below or email us.
+If issues persist, contact us with details.
 
 ## Frequently Asked Questions ❓
 
-**Q: Is my data really secure?**  
-A: Yes! We use AES-256 encryption, the same standard used by banks and governments.
+**Q: How do I scan a receipt?**  
+A: Tap the scan button, allow camera access, and hold steady. The app uses OCR to extract items automatically.
 
-**Q: Can I share entries with others?**  
-A: Currently, sharing is not supported, but it's on our roadmap. Stay tuned!
+**Q: What if the OCR misses an item?**  
+A: Use manual entry or edit the parsed receipt. The app suggests matches based on your inventory.
 
-**Q: How do I backup my data?**  
-A: Backups happen automatically via iCloud. You can also export manually in Settings.
+**Q: Can I manage multiple salons?**  
+A: Yes! Add locations in settings and switch between them. Stock is tracked separately but reports combine data.
 
-**Q: What if I lose my device?**  
-A: Your data is encrypted and synced. Use your recovery key to access it on a new device.
+**Q: How are reorder suggestions calculated?**  
+A: Based on moving-average usage rates, days-until-empty projections, and your supplier history.
+
+**Q: Is my data secure?**  
+A: Yes, local-first with iOS encryption. Optional iCloud backup is user-controlled. No third-party servers.
+
+**Q: How do I export data?**  
+A: Go to Settings > Export and choose CSV. Includes all products, expenses, and usage records.
+
+**Q: What if I delete something by mistake?**  
+A: No undo, but export regularly. Contact us if you need help recovering from a backup.
 
 **Q: Does the app work offline?**  
-A: Yes, you can view and edit entries offline. Sync happens when you're back online.
+A: Yes, fully offline. iCloud sync requires internet.
 
 **Q: How do I update the app?**  
-A: Updates are available through the App Store. Enable auto-updates for seamless upgrades.
+A: Via the App Store. Enable auto-updates in your device settings.
 
 **Q: Can I use Vanity Vault on Android?**  
-A: Not yet, but we're working on it! For now, it's iOS-only.
-
-**Q: What if I delete an entry by mistake?**  
-A: Check the Trash folder in the app – deleted items are kept for 30 days.
+A: Not currently; it's iOS-only.
 
 **Q: How do I report a bug?**  
-A: Email us at Pdave7848@gmail.com with a description, steps to reproduce, and screenshots.
+A: Email Pdave7848@gmail.com with device/iOS/app version, steps to reproduce, and screenshots.
 
-**Q: Where can I find the latest updates?**  
-A: Check the App Store for new versions or visit our support URL.
-
-**Q: Is there a premium version?**  
-A: Yes! Unlock unlimited entries and advanced features with Vanity Vault Pro.
-
-**Q: How do I contact support?**  
-A: See the Contact Us section below.
+**Q: Where can I find tutorials?**  
+A: Check the in-app Help Center for guides on scanning, inventory, and settings.
 
 ## Contact Us 📧
 
@@ -86,24 +85,16 @@ We're here to help! For personalized assistance:
 Once Vanity Vault is live on the App Store, visit the product page for official support resources:  
 [App Store Support Page](https://apps.apple.com/us/app/vanity-vault/idXXXXXXXXXX) (link will be updated upon release).
 
-## Updates & Changelog 📝
 
-Stay informed about the latest features and fixes:
-- **v1.0.0**: Initial release with core features.
-- **v1.1.0**: Added dark mode and improved sync.
-- **v1.2.0**: Biometric enhancements and bug fixes.
 
-For the full changelog, visit [our website](https://yourapp.com/changelog).
 
-## Privacy & Terms 🔒
-
-- **Privacy Policy**: Learn how we protect your data [here](https://yourapp.com/privacy).
-- **Terms of Service**: Read our terms [here](https://yourapp.com/terms).
 
 ## Feedback & Suggestions 💡
 
-Love Vanity Vault? Hate something? We value your input! Send suggestions to Pdave7848@gmail.com or leave a review on the App Store.
+Send ideas to Pdave7848@gmail.com or review on the App Store.
 
-Thank you for choosing Vanity Vault. Your security and satisfaction are our top priorities! 🌟
+<small>**Terms of Service** | **Privacy Policy**</small>
+
+Thank you for using Vanity Vault!
 
 *Last updated: December 14, 2025*
