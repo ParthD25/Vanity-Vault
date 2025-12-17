@@ -99,14 +99,29 @@ For step-by-step tutorials on scanning receipts, managing inventory, and using r
 
 ## Privacy Policy 🔒
 
+**Privacy Policy URL (required for App Store review):**
+https://parthd25.github.io/Vanity-Vault/ (see the “Privacy Policy” section)
+
+"A URL that links to your privacy policy. A privacy policy is required for all apps."
+
 Vanity Vault is committed to protecting your privacy. Here's how we handle your data:
 
-- **Data Storage**: All data is stored locally on your device using SwiftData. No data is sent to third-party servers.
-- **Encryption**: Data is encrypted using iOS-level security features.
-- **Backup**: Optional iCloud backup is available, controlled by you. We do not access or store your iCloud data.
-- **No Tracking**: We do not use analytics, tracking, or ad SDKs.
-- **Data Export and Deletion**: You can export all data as CSV and delete it from the app at any time.
-- **Compliance**: We comply with CCPA and GDPR principles, as well as Apple App Store guidelines.
+- **Data Storage (On-Device)**: Inventory and expense data is stored locally on your iPhone/iPad. Vanity Vault does not operate its own servers for storing your data.
+- **Receipt Processing**: If you scan receipts, text extraction (OCR) is performed on-device using Apple frameworks (e.g., Vision/VisionKit). If you attach receipt images, those images are stored on-device unless you export/share them.
+- **Encryption**: Data at rest is protected by iOS security features (including device-level encryption) and by your device passcode/biometrics settings.
+- **Data Sharing**: Vanity Vault does not sell your data. The app is designed to function without third-party analytics, advertising SDKs, or data brokers.
+- **Permissions**: Camera access is used only to capture receipts; notification permissions (if enabled) are used only for app alerts such as low-stock reminders.
+- **Export & Deletion**: You can export data (e.g., CSV) and you can delete app data at any time from within the app (e.g., reset/delete flows). Exported files are saved to locations you choose and are outside the app’s control once shared.
+
+This section is a plain-language summary for support purposes; the Privacy Policy linked above is the controlling document.
+
+## Third-Party Content & Rights (App Review)
+
+"If your app contains, shows, or accesses any third-party content, you must have the rights to it or be permitted to use the content."
+
+Vanity Vault is intended for business use with content provided by you (e.g., product names, supplier names, receipt photos, notes). If you import, attach, or display third-party content (including logos, product images, scanned receipts, or documents), you are responsible for ensuring you have the legal right to use that content within the app.
+
+If you believe content shown in or exported by the app infringes your rights, contact us using the email address in the **Contact Us** section with details (what content, where it appears, and proof of ownership) so we can help you remediate.
 
 <small>**Terms of Service** | **Privacy Policy**</small>
 
